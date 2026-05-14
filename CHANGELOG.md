@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Docker: add a local image with Node, Playwright Chromium, `/data` persistence, and CI smoke coverage.
 - Add Czech Republic (`CZ`) Foodora preset using `DJ_CZ`. (`#6`, thanks `@usimic`)
 
 ## 0.1.0 (2025-12-20)

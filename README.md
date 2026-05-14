@@ -23,6 +23,16 @@ go test ./...
 go build ./cmd/ordercli
 ```
 
+Docker:
+
+```sh
+docker build -t ordercli .
+docker run --rm -v "$PWD/.ordercli:/data" ordercli foodora config show
+docker run --rm -it -v "$PWD/.ordercli:/data" ordercli foodora login --email you@example.com --password-stdin --browser
+```
+
+The image includes Node and Playwright Chromium for browser-backed login/status helpers. Host Chrome cookie import still needs explicit cookie DB mounts.
+
 ## foodora
 
 ### Configure country / base URL
