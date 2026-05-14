@@ -44,6 +44,7 @@ Bundled presets (from the APK):
 ./ordercli foodora config set --country HU
 ./ordercli foodora config set --country AT
 ./ordercli foodora config set --country CZ
+./ordercli foodora config set --country SE
 ./ordercli foodora config show
 ```
 
